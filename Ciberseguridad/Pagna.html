@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciberseguridad</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ciberseguridad</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#modelo-osi" data-toggle="modal">Modelo OSI vs. TCP/IP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ciberseguridad">Preguntas de Ciberseguridad</a>
+        </li>
+      </ul>
+      <form class="form-inline ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" id="search-input">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="button" id="search-button">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1>Ciberseguridad</h1>
+    <hr>
+    <h2>Enlaces:</h2>
+    <ul>
+      <li><a href="#modelo-osi" data-toggle="modal">Modelo OSI vs. TCP/IP</a></li>
+      <li><a href="#ciberseguridad">Preguntas de Ciberseguridad</a></li>
+    </ul>
+  </div>
+
+  <!-- Ventana modal del modelo OSI vs. TCP/IP -->
+  <div class="modal fade" id="modelo-osi" tabindex="-1" role="dialog" aria-labelledby="modelo-osi-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modelo-osi-label">Modelo OSI vs. TCP/IP</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Capa</th>
+                <th>Modelo OSI</th>
+                <th>TCP/IP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Capa física</td>
+                <td>Define las características eléctricas, mecánicas y funcionales de los medios de transmisión.</td>
+                <td>Define las características eléctricas y físicas de los medios de transmisión.</td>
+              </tr>
+              <tr>
+                <td>Capa de enlace de datos</td>
+                <td>Controla la transmisión de datos a través de un enlace físico y detecta y corrige errores.</td>
+                <td>Encapsula los paquetes de datos en tramas y realiza el control de acceso al medio.</td>
+              </tr>
+              <tr>
+                <td>Capa de red</td>
+                <td>Se encarga del enrutamiento de los paquetes a través de la red.</td>
+                <td>Realiza el enrutamiento de los paquetes basado en las direcciones IP.</td>
+              </tr>
+              <tr>
+                <td>Capa de transporte</td>
+                <td>Proporciona la entrega de datos de extremo a extremo y garantiza la integridad y el control de flujo.</td>
+                <td>Proporciona la entrega confiable de datos entre los hosts mediante los protocolos TCP o UDP.</td>
+              </tr>
+              <tr>
+                <td>Capa de sesión</td>
+                <td>Establece, mantiene y finaliza las conexiones entre las aplicaciones en los sistemas finales.</td>
+                <td>No existe una capa específica de sesión en TCP/IP.</td>
+              </tr>
+              <tr>
+                <td>Capa de presentación</td>
+                <td>Realiza la representación y el formato de los datos para su intercambio entre las aplicaciones.</td>
+                <td>No existe una capa específica de presentación en TCP/IP.</td>
+              </tr>
+              <tr>
+                <td>Capa de aplicación</td>
+                <td>Proporciona servicios de red a las aplicaciones del usuario final.</td>
+                <td>Contiene los protocolos de aplicación utilizados para servicios como HTTP, FTP, DNS, etc.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Página de preguntas y respuestas de ciberseguridad -->
+  <div class="container mt-4" id="ciberseguridad">
+    <h2>Preguntas de Ciberseguridad:</h2>
+<hr>
+<h3>Ejemplos de principales tipos de ciberdelincuencia</h3>
+<p>Algunos de los ejemplos más comunes de ciberdelincuencia con los que nos podemos ver afectados son, por ejemplo, los robos de datos personales, acceso a nuestros datos y cuentas bancarias, chantajes a través de información personal, mensajes de spam y fraudes por correo electrónico o mensajes de texto.</p>
+<h3>Motivos del aumento de los ciberdelitos</h3>
+<p>Uno de los principales motivos de este aumento en ciberdelincuencia es que el ciberdelito es mucho más barato que los delitos convencionales, el narcotráfico o el tráfico de armas son mucho más caros de llevar a cabo. Des de INCIBE, preocupa la cantidad de empresas que no saben cuál es su nivel de ciberseguridad.</p>
+<h3>Quiénes suelen ser los ciberdelincuentes</h3>
+<p>Las mentes detrás de los delitos informáticos, son llamados comúnmente “Ciberdelincuentes”. Para definir este término, podríamos decir que un Ciberdelincuente es toda persona que realiza actividades delictivas en internet, como la apropiación ilegítima de información, el acceder a redes privadas, estafas y engaños.</p>
+<h3>Cómo se les captura</h3>
+<p>La captura de ciberdelincuentes puede llevarse a cabo mediante el trabajo conjunto de fuerzas de seguridad, investigación digital, análisis forense, cooperación internacional y la aplicación de leyes y regulaciones relacionadas con el delito cibernético.</p>
+
+<h3>Motivaciones de los ciberdelincuentes</h3>
+<p>Los ciberdelincuentes pueden tener diversas motivaciones, que incluyen obtener ganancias financieras, acceder a información confidencial, causar daño o interrupción, espionaje, sabotaje, robo de identidad, entre otros.</p>
+
+<h3>Qué es la DeepWeb, y diferencia con la DarkWeb</h3>
+<p>La Deep Web es la parte de Internet que no está indexada por los motores de búsqueda convencionales y no es de acceso público. Por otro lado, la Dark Web es una parte de la Deep Web que se refiere específicamente a sitios web y servicios en línea que operan en redes anónimas y suelen ser utilizados para actividades ilegales.</p>
+
+<h3>Qué capas del modelo OSI son implementadas por el sistema operativo (software) y cuáles están implementadas por hardware</h3>
+<p>Las capas del modelo OSI implementadas por el sistema operativo (software) son:</p>
+<ul>
+  <li>Capa de aplicación</li>
+  <li>Capa de presentación</li>
+  <li>Capa de sesión</li>
+  <li>Capa de transporte</li>
+  <li>Capa de red</li>
+</ul>
+<p>Las capas del modelo OSI implementadas por el hardware son:</p>
+<ul>
+  <li>Capa de enlace de datos</li>
+  <li>Capa física</li>
+</ul>
+
+<h3>Describe qué es y cómo se utiliza NMap. Mostrar capturas de pantalla.</h3>
+<p>NMap es una herramienta de código abierto utilizada para el escaneo de redes y la detección de hosts y servicios. Permite descubrir dispositivos conectados a la red, obtener información sobre los puertos abiertos y los servicios en ejecución, y realizar diversas tareas de exploración y auditoría.</p>
+<p>Aquí tienes una captura de pantalla de NMap en acción:</p>
+<img src="./Ciberseguridad.png" alt="Captura depantalla de NMap">
+
+
+<h3>Describe qué es y cómo funciona el escaneo ARP</h3>
+        <p>El escaneo ARP (Address Resolution Protocol) es una técnica utilizada para descubrir y mapear las direcciones IP con las direcciones MAC en una red local. Funciona enviando solicitudes ARP para obtener respuestas de los dispositivos conectados a la red y así construir una tabla ARP que relaciona las direcciones IP con las direcciones MAC correspondientes.</p>
+        
+        <h3>Describe en qué consiste el escaneo de puertos</h3>
+        <p>El escaneo de puertos es un proceso mediante el cual se analizan los puertos de un sistema o dispositivo en una red para determinar qué servicios o aplicaciones están escuchando en esos puertos. Esto permite identificar puertos abiertos, cerrados o filtrados, lo que puede ayudar a evaluar la seguridad de un sistema y detectar posibles vulnerabilidades.</p>
+        
+        <h3>Describe cómo funciona el escaneo de puertos TCP. Mostrar captura de pantalla de su funcionamiento. Se puede usar cualquier programa de la documentación u otro distinto de Linux o Mac.</h3>
+        <p>El escaneo de puertos TCP implica enviar paquetes TCP a través de diferentes puertos de un sistema o dispositivo para detectar cuáles están abiertos y son accesibles. El escaneo puede realizarse de manera secuencial, en paralelo o mediante técnicas más avanzadas como el escaneo SYN, el escaneo ACK, el escaneo FIN, entre otros. Aquí tienes una captura de pantalla que muestra el escaneo de puertos TCP realizado con la herramienta Nmap:</p>
+        <img src="./Puertos.png" alt="Captura de pantalla del escaneo de puertos TCP">
+        
+        <h3>Describe cómo funciona el escaneo de puertos UDP. Mostrar captura de pantalla de su funcionamiento. Se puede usar cualquier programa de la documentación u otro distinto de Linux o Mac.</h3>
+        <p>El escaneo de puertos UDP implica enviar paquetes UDP a través de diferentes puertos de un sistema o dispositivo para determinar cuáles están abiertos y son accesibles. A diferencia del escaneo de puertos TCP, no se establece una conexión directa con los puertos UDP, por lo que el escaneo se basa en la respuesta o falta de respuesta del puerto. Aquí tienes
+una captura de pantalla que muestra el escaneo de puertos UDP realizado con la herramienta Nmap:</p>
+<img src="./udp.png" alt="Captura de pantalla del escaneo de puertos UDP">
+
+<h3>Describe los principales tipos de ataques de red</h3>
+<p>Algunos de los principales tipos de ataques de red incluyen:</p>
+<ul>
+  <li>Ataques de denegación de servicio (DDoS)</li>
+  <li>Ataques de inyección (SQL injection, XSS)</li>
+  <li>Ataques de phishing</li>
+  <li>Ataques de fuerza bruta</li>
+  <li>Ataques de hombre en el medio (MITM)</li>
+  <li>Ataques de secuestro de sesión</li>
+  <li>Ataques de spoofing</li>
+  <li>Ataques de interceptación</li>
+</ul>
+
+<h3>¿Qué son las vulnerabilidades IDOR?</h3>
+<p>Las vulnerabilidades IDOR (Insecure Direct Object References) son una clase de vulnerabilidades en aplicaciones web que ocurren cuando un identificador interno, como un número o un nombre, es utilizado para acceder directamente a un recurso o dato sin verificar adecuadamente si el usuario tiene los permisos necesarios. Esto puede permitir a un atacante acceder, modificar o eliminar información confidencial o privada.</p>
+
+<h3>¿En qué consiste el SQL injection?</h3>
+<p>El SQL injection es una técnica de ataque utilizada en aplicaciones web que aprovecha las vulnerabilidades de seguridad en las consultas SQL. Consiste en insertar código SQL malicioso en los campos de entrada de una aplicación para manipular las consultas SQL y obtener acceso no autorizado a la base de datos subyacente. Esto puede permitir al atacante extraer información confidencial, modificar datos o incluso ejecutar comandos arbitrarios en el servidor de la base de datos.</p>
+
+<h3>¿En qué consiste el ataque XSS?</h3>
+<p>El ataque XSS (Cross-Site Scripting) es un tipo de ataque que aprovecha las vulnerabilidades en aplicaciones web para insertar y ejecutar scripts maliciosos en los navegadores de los usuarios. Estos scripts pueden ser utilizados para robar información sensible, redirigir a los usuarios a sitios falsos, realizar acciones no autorizadas en nombre del usuario, entre otros. Los ataques XSS pueden ser de tipo almacenado, reflejado o basado en DOM, dependiendo de cómo se entregue el script malicioso al usuario.</p>
+
+<h3>¿Cómo se puede proteger una red Wi-Fi?</h3>
+<p>Para proteger una red Wi-Fi, se pueden seguir las siguientes medidas de seguridad:</p>
+<ul>
+  <li>Usar un cifrado fuerte, como WPA2 o WPA3, en lugar de WEP.</li>
+  <li>Establecer una contraseña Wi-Fi segura y única.</li>
+  <li>Desactivar la difusión del nombre de la red (SSID).</li>
+  <li>Configurar un filtrado de direcciones MAC para permitir solo dispositivos autorizados.</li>
+  <li>Actualizar regularmente el firmware del enrutador con las últimas correcciones de seguridad.</li>
+  <li>Desactivar la administración remota del enrutador si no es necesario.</li>
+<li>Usar una red separada para invitados si es posible.</li>
+<li>Monitorear el tráfico de red y utilizar herramientas de detección de intrusiones.</li>
+</ul>
+<h3>¿Cómo realizan hackeos por ingeniería social?</h3>
+    <p>Los hackeos por ingeniería social implican la manipulación psicológica de las personas para obtener información confidencial o realizar acciones no autorizadas. Los atacantes utilizan técnicas como el phishing, el pretexting, el baiting, la suplantación de identidad, entre otras, para engañar a las personas y hacer que revelen información sensible, como contraseñas o datos de acceso, o realicen acciones que benefician al atacante. La ingeniería social se basa en explotar la confianza, la curiosidad, el miedo o la falta de conocimiento de las personas.</p>
+    
+    <h3>¿En qué consiste la autenticación multifactor?</h3>
+    <p>La autenticación multifactor (MFA) es un método de seguridad que requiere que los usuarios proporcionen múltiples factores de autenticación para verificar su identidad. Estos factores pueden ser algo que el usuario sabe (contraseña), algo que el usuario tiene (token, tarjeta inteligente) y algo que el usuario es (huella dactilar, reconocimiento facial). Al utilizar varios factores, se agrega una capa adicional de seguridad y hace que sea más difícil para un atacante comprometer una cuenta incluso si obtiene acceso a un factor de autenticación.</p>
+    
+    <h3>¿Qué es el Credential Stuffing?</h3>
+    <p>El Credential Stuffing es una técnica utilizada por los atacantes para comprometer cuentas en línea. Consiste en utilizar combinaciones de nombres de usuario y contraseñas filtradas de violaciones de datos en otros servicios y probar esas combinaciones en diferentes sitios web o aplicaciones. El objetivo es aprovechar el hecho de que muchas personas reutilizan las mismas credenciales en múltiples servicios, lo que permite a los atacantes obtener acceso no autorizado a las cuentas de las víctimas.</p>
+    
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script>
+    // Búsqueda en ventana modal
+    document.getElementById("search-button").addEventListener("click", function() {
+      var searchTerm = document.getElementById("search-input").value.toLowerCase();
+      var modalBody = document.querySelector(".modal-body");
+      var paragraphs = modalBody.getElementsByTagName("p");
+      
+      for (var i = 0; i < paragraphs.length; i++) {
+        var text = paragraphs[i].innerText.toLowerCase();
+        if (text.includes(searchTerm)) {
+          paragraphs[i].style.display = "block";
+        } else {
+          paragraphs[i].style.display = "none";
+        }
+      }
+    });
+  </script>
+</body>
+</html>
+```
